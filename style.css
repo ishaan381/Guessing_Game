@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(255, 187, 0);
+}
+
+header {
+  background-color: black;
+  background-size: cover;
+  color: rgb(255, 187, 0);
+  text-align: center;
+  font-family: "Copperplate";
+  font-size: 36px;
+}
+
+.gamebox {
+  height: 300px;
+  width: 500px;
+  border: 6px;
+  border-style: solid;
+  border-color: purple;
+  margin: auto auto auto auto;
+  text-align: center;
+}
+
+input[type="textarea"] {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  
+}
+
+#subdiv{
+  margin-top: 0px;
+}
+
+.btn {
+  font-family: Arial;
+  background-color: purple;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;
+  display: block;
+  border-width: 4px;
+  border-color: grey;
+}
+
+.btn1 {
+  margin: 0px auto;
+  display: inline;
+}
+
+.txt {
+  font-family: "Courier New";
+  margin: 15px auto;
+}
+
+.btn:hover {
+  color: rgb(255, 187, 0);
+  background-color: rgb(198, 26, 255);
+  border-color: white;
+}
+
+@media (max-height: 600px) {
+ header {
+  font-size: 22px;
+ }
+}
+
+@media (max-width: 500px) {
+      .gamebox {
+        width: auto;
+      }
+    }
