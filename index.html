@@ -16,16 +16,18 @@
 
   <div class="gamebox">
     <h2 class="txt">Guess a number!!</h2>
-    <input type="textarea" placeholder="Guess a number between 0-100!"/>
-    <button class="btn">Submit your guess!</button>
+    <input type="textarea" id="input" placeholder="Guess a number between 0-100!"/>
+    <h3 class="txt feedback"></h3>
+    <button class="btn" id="submit">Submit your guess!</button>
 
     <div id="subdiv">
-      <button class="btn btn1">Play again</button>
-      <button class="btn btn1">Want a hint?</button>
+      <button class="btn btn1" id="again">Play again</button>
+      <button class="btn btn1" id="hint">Want a hint?</button>
      
     </div>
-     <h3 class="txt">5 Guesses remaining! Make it count!</h3>
+     <h3 class="txt remaining">5 Guesses remaining! Make it count!</h3>
   </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="guessingGame.js"></script>
 </body>
 </html>
